@@ -21,7 +21,8 @@ class _Navigation_screenState extends State<Navigation_screen> {
   late PageController pageController;
 
   @override
-  void initState() {
+  void initState()
+  {
     super.initState();
     pageController=PageController();
 

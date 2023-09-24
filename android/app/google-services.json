@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305195148777",
+    "project_id": "quick-fit-fb4ea",
+    "storage_bucket": "quick-fit-fb4ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305195148777:android:1c686df14f969c6e291778",
+        "android_client_info": {
+          "package_name": "com.example.newidea"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMVVymF2GSShRPFU51CNaHu_Dx5n5TP44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,5 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -138,10 +140,15 @@ class _LeaderboardState extends State<Leaderboard> {
 
           SizedBox(width: 50,),
 
-          Container(
-            width: 30,
-            height: 30,
-            child: Image.asset("asset/notification.png"),
+          InkWell(
+            onTap: ()=>{
+              FirebaseAuth.instance.signOut()
+            },
+            child: Container(
+              width: 30,
+              height: 30,
+              child: Image.asset("asset/notification.png"),
+            ),
           ),
 
 
