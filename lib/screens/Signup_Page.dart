@@ -22,7 +22,7 @@ class _Signup_pageState extends State<Signup_page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
         physics: NeverScrollableScrollPhysics(),
         child: Container(
