@@ -22,7 +22,7 @@ class _Edit_Text_FieldState extends State<Edit_Text_Field> {
       width: double.infinity,
       height: 50,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.all(Radius.circular(30)),
+        borderRadius: BorderRadius.all(Radius.circular(15)),
         border: Border.all(
           color: Colors.grey,
           width: 0.5
