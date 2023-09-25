@@ -117,11 +117,11 @@ class _Login_PageState extends State<Login_Page> {
 
             },
             child: Container(
-
+              // color: Colors.blue,
               width: 150,
               height: 50,
               decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Colors.deepPurple,
                 borderRadius: BorderRadius.all(Radius.circular(15)),
               ),
 
@@ -133,15 +133,26 @@ class _Login_PageState extends State<Login_Page> {
             ),
           ),
 
+          SizedBox(height: 20,),
+
           Expanded(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: InkWell(
-                onTap: ()=> Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Signup_page())),
-                child: Text("Don't have account? Create Account" , style: GoogleFonts.lato(
-                    fontSize: 14,
-                    fontWeight: FontWeight.w400
-                ),),
+            child: InkWell(
+              onTap: ()=> Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Signup_page())),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text("Don't have account?" , style: GoogleFonts.lato(
+                      fontSize: 14,
+                      fontWeight: FontWeight.w600
+                  ),),
+                  SizedBox(width: 5,),
+                  Text("Create Account" , style: GoogleFonts.lato(
+                      fontSize: 14,
+                      fontWeight: FontWeight.w600,
+                    color: Colors.deepPurple
+                  ),)
+                ],
               ),
             ),
           )

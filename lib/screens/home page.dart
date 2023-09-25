@@ -91,7 +91,7 @@ class _Home_ScreenState extends State<Home_Screen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("Good Morning!",style: GoogleFonts.lato(fontSize: 12,color: Colors.black54, fontWeight: FontWeight.w500),),
-                        Text("Thomas Smith" , style: GoogleFonts.lato(fontSize: 16 , fontWeight: FontWeight.w600),)
+                        Text("Sujal" , style: GoogleFonts.lato(fontSize: 16 , fontWeight: FontWeight.w600),)
                       ],
                     ),
                     Expanded( 

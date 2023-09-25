@@ -24,8 +24,8 @@ class _Edit_Text_FieldState extends State<Edit_Text_Field> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(15)),
         border: Border.all(
-          color: Colors.grey,
-          width: 0.5
+          color: Colors.deepPurple,
+          width: 1
         )
       ),
       child: TextField(
